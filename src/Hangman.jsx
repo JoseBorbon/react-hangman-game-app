@@ -3,13 +3,13 @@ import { v4 as uuidv4 } from 'uuid';
 
 import AlphaButtons from './AlphaButtons';
 import './Hangman.css';
-import img0 from './0.jpg';
-import img1 from './1.jpg';
-import img2 from './2.jpg';
-import img3 from './3.jpg';
-import img4 from './4.jpg';
-import img5 from './5.jpg';
-import img6 from './6.jpg';
+import img0 from './assets/images/0.jpg';
+import img1 from './assets/images/1.jpg';
+import img2 from './assets/images/2.jpg';
+import img3 from './assets/images/3.jpg';
+import img4 from './assets/images/4.jpg';
+import img5 from './assets/images/5.jpg';
+import img6 from './assets/images/6.jpg';
 import { randomWord } from './words';
 
 class Hangman extends Component {
